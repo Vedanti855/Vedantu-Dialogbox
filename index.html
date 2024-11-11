@@ -17,6 +17,55 @@
         </p>
       </div>
     </div>
+    <button type="button" class="btn" onclick="openModal()">Enroll Now</button>
+
+    <div class="overlay" id="overlay">
+      <div class="modal">
+        <img
+          src="./img/close.png"
+          class="close-icon"
+          alt="Close"
+          onclick="closeModal()" />
+        <form class="form">
+
+          <h1 class="form-header">Enroll Now</h1>
+
+          <input
+            type="text"
+            placeholder="Enter your name"
+            class="form-input"
+          />
+
+          <input
+            type="email"
+            placeholder="Enter your email"
+            class="form-input"
+          />
+          <input
+          type="text"
+          placeholder="Enter your phone number"
+          class="form-input"
+        />
+
+        <input
+          type="text"
+          placeholder="College/School Name"
+          class="form-input"
+        />
+      </form>
+
+      <button type="button" class="btn">
+        Proced to Payment
+      </button>
+    </div>
+  </div>
+
+
+  <script src="./js/script.js"></script>
+</body>
+</html>
+
+
 
 </head>
 <body>
